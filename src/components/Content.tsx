@@ -8,6 +8,8 @@ interface MovieItemProps {
   }
 }
 
+import '../styles/content.scss';
+
 export interface MovieProps {
   imdbID: string;
   Title: string;
